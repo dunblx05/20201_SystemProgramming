@@ -1,6 +1,10 @@
 #include <stdio.h>
 
+//µ¡¼À
+int add(int a, int b) {
+	return a + b;
+}
+
 int main() {
-	printf("hello\n");
-	printf("hello\n");
+
 }
