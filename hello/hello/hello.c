@@ -1,24 +1,24 @@
 #include <stdio.h>
 
-//µ¡¼À
+//ï¿½ï¿½ï¿½ï¿½
 int add(int a, int b) {
 	return a + b;
 }
 
-//–E¼À
+//ï¿½Eï¿½ï¿½
 int sub(int a, int b) {
 	return a - b;
 }
 
-//°ö¼À
+//ï¿½ï¿½ï¿½
 int mul(int a, int b) {
 	return a * b;
 }
 
-//³ª´°¼À
+//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 int div(int a, int b) {
 	return a / b;
 }
 int main() {
-
 }	
+
