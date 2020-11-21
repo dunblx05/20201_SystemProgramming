@@ -14,6 +14,11 @@ int sub(int a, int b) {
 int mul(int a, int b) {
 	return a * b;
 }
+
+//³ª´°¼À
+int div(int a, int b) {
+	return a / b;
+}
 int main() {
 
 }	
