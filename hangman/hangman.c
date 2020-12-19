@@ -16,6 +16,27 @@ void printH(int x, int y, int n)
 		printw(" ");
 	}
 }
+
+void drawBorder(){
+	if(has_colors())
+	{
+		start_color();
+
+		init_pair(1,COLOR_WHITE,COLOR_WHITE);
+
+	}
+	attron(COLOR_PAIR(1));	
+
+	printV(2,5,20);
+	printV(2,6,20);
+	printV(2,82,20);
+	printV(2,83,20);
+	printH(2,7,75);
+	printH(21,7,75);
+	
+	refresh();
+}
+
 void drawHangMan(){
 	//head
 	printH(8,30,10);
